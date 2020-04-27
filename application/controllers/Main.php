@@ -10,4 +10,11 @@ class Main extends CI_Controller {
 		$this->load->view("main/index");
 		$this->load->view("footer");
 	}
+
+	public function contact(){
+
+		$this->load->view("header");
+		$this->load->view("main/contact");
+		$this->load->view("footer");
+	}
 }

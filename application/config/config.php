@@ -27,7 +27,10 @@ $config['base_url'] = '/';
 
 $config['brand_name'] = "Perfect Hardwood Floor";
 $config["slogan"] = "Expert flooring service";
-$config["phone_number"] = "647-821-2019";
+$config["phone_number"] = "437-991-5166";
+
+$config['google_map_api'] = "AIzaSyCH2iAghG2skfsdmgN_TpyqZV1-oPLnK74";
+
 
 /*
 |--------------------------------------------------------------------------

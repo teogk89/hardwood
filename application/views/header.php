@@ -13,7 +13,7 @@
 <title><?php echo $this->config->item('brand_name')?></title>
 
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" media="screen">
+<link href="<?php echo base_url('css/style.css') ?>" rel="stylesheet" media="screen">
 </head>
 <body>
 <div class="animsition">
@@ -90,7 +90,7 @@
 <span class="icon-bar"></span>
 </button>
 <a class="brand" href="#">
-<img alt="" src="images/brand.png">
+<img alt="" src="<?php echo base_url('images/brand.png')?>">
 <div class="brand-info">
 <div class="brand-name"><?php echo $this->config->item('brand_name')?></div>
 <div class="brand-text"><?php echo $this->config->item("slogan")?></div>
