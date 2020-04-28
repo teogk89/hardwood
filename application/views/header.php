@@ -30,46 +30,20 @@
 </div>
 <ul class="menu-list right-boxed">
 <li class="active">
-<a href="index.html">Home</a>
-<ul>
-<li><a href="../light/index.html">Classic</a></li>
-<li><a href="home-fullpage.html">Full page</a></li>
-<li class="active"><a href="index.html">Dark</a></li>
-</ul>
+<a href="<?php echo base_url('/')?>">Home</a>
+
 </li>
 <li>
-<a href="works.html">Works</a>
-<ul>
-<li><a href="works-grid.html">Grid</a></li>
-<li><a href="works-masonry.html">Masonry</a></li>
-<li><a href="works-carousel.html">Carousel</a></li>
-<li><a href="project-detail.html">Project Detail</a></li>
-</ul>
+<a href="<?php echo base_url('main/contact')?>">Contact</a>
 </li>
 <li>
-<a href="#">News</a>
-<ul>
-<li><a href="news-grid.html">Grid</a></li>
-<li><a href="news-listing.html">Listing</a></li>
-<li><a href="news-masonry.html">Masonry</a></li>
-</ul>
+<a href="<?php echo base_url('main/gallery')?>">Gallery</a>
 </li>
 <li>
-<a href="#">Post detail</a>
-<ul>
-<li><a href="post-image.html">Image</a></li>
-<li><a href="post-gallery.html">Gallery</a></li>
-<li><a href="post-video.html">Video</a></li>
-<li><a href="post-right-sidebar.html">Right Sidebar</a></li>
-</ul>
+<a href="<?php echo base_url('main/about')?>">About</a>
+
 </li>
-<li>
-<a href="#">Pages</a>
-<ul>
-<li><a href="about.html">About</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</li>
+
 </ul>
 <div class="menu-footer right-boxed">
 <div class="social-list">

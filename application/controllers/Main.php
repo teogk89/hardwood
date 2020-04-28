@@ -17,4 +17,26 @@ class Main extends CI_Controller {
 		$this->load->view("main/contact");
 		$this->load->view("footer");
 	}
+
+	public function about(){
+
+		$this->load->view("header");
+		$this->load->view("main/about");
+		$this->load->view("footer");
+	}
+	public function gallery(){	
+		
+		$dir = FCPATH .'/images/gallery';
+		$images = array_filter(scandir($dir),function($img){
+
+		
+			return preg_match('/\.jpg/i',$img,$matches) ? true:false;
+
+		});
+		
+		$this->load->view("header");
+		$this->load->view("main/gallery",['images'=>$images]);
+		$this->load->view("footer");
+
+	}
 }
