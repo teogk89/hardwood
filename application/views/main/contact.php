@@ -32,8 +32,8 @@
 <p class="contact-top"><strong class="text-muted">Call directly:</strong></p>
 <p class="phone-lg text-dark"><?php echo $this->config->item("phone_number")?></p>
 <p class="text-muted"><strong class="text-dark">Work Hours</strong><br>
-Monday - Friday : 08h00 - 17h30<br>
-Saturday: 08h00 - 12h00, Sunday off work</p>
+Monday - Sunday : 08:00 AM - 06:00PAM<br>
+
 <div class="text-muted"><strong class="text-dark">Follow us</strong><br>
 <div class="contact-social social-list">
 <a href="" class="icon ion-social-twitter"></a>

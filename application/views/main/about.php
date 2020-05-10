@@ -5,6 +5,7 @@
 <div class="title-hr"></div>
 </div>
 <div class="col-md-8 col-lg-6">
+	<h1>Glass Railing</h1>
 	<h1>Installation</h1>
 	<h1>Hardwood</h1>
 	<h1>Laminate</h1>
