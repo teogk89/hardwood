@@ -23,7 +23,7 @@
 </div>
 <div class="flex-item">
 <ul>
-<li><a href="">Our Location</a></li>
+<li><a href="/main/gallery">Gallery</a></li>
 <li><a href="">Career</a></li>
 <li><a href="">About</a></li>
 <li><a href="">Contact</a></li>

@@ -46,13 +46,14 @@
 
 </ul>
 <div class="menu-footer right-boxed">
-<div class="social-list">
-<a href="" class="icon ion-social-twitter"></a>
-<a href="" class="icon ion-social-facebook"></a>
-<a href="" class="icon ion-social-googleplus"></a>
-<a href="" class="icon ion-social-linkedin"></a>
-<a href="" class="icon ion-social-dribbble-outline"></a>
-</div>
+	<div style="display:none" class="social-list">
+		<a href="" class="icon ion-social-twitter"></a>
+		<a href="" class="icon ion-social-facebook"></a>
+		<a href="" class="icon ion-social-googleplus"></a>
+		<a href="" class="icon ion-social-linkedin"></a>
+		<a href="" class="icon ion-social-dribbble-outline"></a>
+	</div>
+
 <div class="copy">© <?php echo $this->config->item('brand_name')?> 2020. All Rights Reseverd<br></div>
 </div>
 </div>
@@ -70,7 +71,8 @@
 <div class="brand-text"><?php echo $this->config->item("slogan")?></div>
 </div>
 </a>
-<div class="social-list hidden-xs">
+
+<div class="social-list hidden-xs" style="display:none">
 <a href="" class="icon ion-social-twitter"></a>
 <a href="" class="icon ion-social-facebook"></a>
 <a href="" class="icon ion-social-googleplus"></a>
@@ -78,5 +80,7 @@
 <a href="" class="icon ion-social-dribbble-outline"></a>
 </div>
 <div class="navbar-spacer hidden-sm hidden-xs"></div>
+
 <address class="navbar-address hidden-sm hidden-xs">call us: <span class="text-dark"><?php echo $this->config->item("phone_number")?></span></address>
+<address class="navbar-address hidden-sm hidden-xs" style="margin-right:10px"><a href="/main/gallery">Gallery</a></address>
 </header>
